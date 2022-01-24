@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.gridGallery{
+    display: grid;
+    margin: 1%;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+img{
+    width: 100%;
+}
+
+img:hover{
+    opacity: 0.25;
+}
